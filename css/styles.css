@@ -425,6 +425,8 @@
  visibility: hidden;
  font-size: 20px;
  margin: 0;
+ width: 300px;
+ margin: 0 auto;
 }
 
 .work-text:hover p {
@@ -670,16 +672,20 @@ form label {
  color: #fff;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 800px) {
    .computer {
-     padding-top: 50px;
-     padding-left: 90px;
+     padding: 0;
    }
    .computer h2 {
      font-size: 40px;
+     margin-top: 75px;
+     margin-left: 95px;
    }
    .line {
-     visibility: hidden;
+     margin-top: 200px;
+     margin-right: 90px;
+     height: 40px;
+     width: 6px;
    }
    .my-story {
      height: 410px;
@@ -709,13 +715,13 @@ form label {
    }
    .caption-box h3 {
      font-size: 12px;
-     margin-bottom: 10px;
+     margin-bottom: 20px;
    }
    .carousel-control {
      height: 275px;
    }
    .carousel-indicators {
-     margin-bottom: 360px;
+     margin-bottom: 10px;
    }
    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
      background-color: rgba(0, 0, 0, .35);
@@ -739,7 +745,124 @@ form label {
    .work-text {
      width: 100vw;
    }
-   .background-pic {
-     width: 100vw;
+   .work-text h1 {
+     width: 400px;
+     font-size: 30px;
+   }
+   #panel {
+     width: 400px;
+   }
+   .work-text p {
+     margin-left: 50px;
+   }
+   .my-work {
+     width: 400px;
+     height: 220px;
+     margin-bottom: 200px;
+   }
+   #pet-site {
+     margin-top: 30px;
+     height: 150px;
+     width: 150px;
+     margin-left: 20px;
+   }
+   #restaurant {
+     margin-top: 30px;
+     height: 150px;
+     width: 150px;
+     margin-right: 20px;
+   }
+   .race-track {
+     width: 435px;
+   }
+   #my-goals {
+     height: 400px;
+   }
+   .my-goals-text {
+     font-size: 50px;
+     width: 400px;
+     text-align: center;
+   }
+   .my-goals-title {
+     margin-left: 18px;
+   }
+   .big-race-row {
+     width: 435px;
+     margin-right: 0px;
+   }
+   .race-row {
+     width: 435px;
+   }
+   .lane {
+     width: 350px;
+     height: 50px;
+     border: 3px solid #fff;
+   }
+   .finish {
+     width: 85px;
+     height: 250px;
+   }
+   .finish-text {
+     font-size: 60px;
+     margin-top: 30px;
+   }
+   .red-area {
+     width: 350px;
+   }
+
+   .red-area p {
+     font-size: 12px;
+     height: 15px;
+   }
+   .navbar {
+     width: 432px;
+   }
+   .body {
+     width: 432px;
+   }
+   .contact-me-text {
+     width: 400px;
+     font-size: 50px;
+     margin-top: 100px;
+   }
+   .contact-me {
+     height: 1025px;
+     width: 400px;
+     margin: 0 auto;
+     margin-top: 30px;
+   }
+   .contact-form {
+     padding: 0px 30px;
+   }
+   .submit-area {
+     width: 107px;
+     margin-right: 0px;
+     margin: 0 auto;
+   }
+   .submit-button {
+     margin-left: 115px;
+   }
+   }
+   .f-link, .t-link, .i-link {
+     margin: 0px 25px;
+   }
+   .social-links {
+     padding-left: 15px;
+     margin-top: 50px;
+   }
+   .map {
+     margin-left: 0;
+     margin-top: 50px;
+     width: 364px;
+   }
+   .map iframe {
+     width: 364px;
+     margin: 0 auto;
+   }
+   #carousel-example-generic {
+     height: 300px;
+   }
+   .row-2 {
+     margin-bottom: 0;
    }
 }
