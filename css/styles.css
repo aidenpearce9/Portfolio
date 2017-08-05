@@ -56,8 +56,12 @@
  margin: 0px 10px;
 }
 
+#carousel-example-generic {
+  margin: 0;
+}
+
 .item {
- height: 635px;
+ height: 100vh;
  background-position: center;
  background-size: cover;
 }
@@ -66,7 +70,7 @@
  display: flex;
  align-items: center;
  justify-content: center;
- height: 100%;
+ height: 100vh;
  width: 60%;
 }
 
@@ -93,11 +97,16 @@
 }
 
 .carousel-section {
- margin-bottom: 100px;
+ margin-bottom: 400px;
+}
+
+.carousel-control {
+  height: 100vh;
 }
 
 #my-story {
  height: 100%;
+ margin-top: 100px;
 }
 
 #my-story .row-1 {
@@ -602,7 +611,7 @@
 }
 
 .contact-me {
- height: 500px;
+ height: 550px;
  background-color: rgba(3, 155, 191, .5);
  margin-top: 60px;
  margin-bottom: 30px;
@@ -637,6 +646,12 @@
  color: #fff;
 }
 
+.social-links {
+ width: 353px;
+ padding-left: 10px;
+ margin: 0 auto;
+}
+
 .s-links {
  margin-left: 24px;
  margin-right: 24px;
@@ -663,18 +678,20 @@
  color: red;
 }
 
-.map {
- margin-top: 10px;
- margin-left: 50px;
-}
-
 form label {
  color: #fff;
 }
 
-@media only screen and (max-width: 800px) {
+.map {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 500px) {
    .computer {
      padding: 0;
+   }
+   .background-pic {
+     width: 450px;
    }
    .computer h2 {
      font-size: 40px;
@@ -708,7 +725,7 @@ form label {
      padding: 0px 10px;
      width: 330px;
      margin-left: 18%;
-     margin-bottom: 345px;
+     margin-bottom: 45px;
    }
    .caption-box h2 {
      font-size: 14px;
@@ -717,11 +734,8 @@ form label {
      font-size: 12px;
      margin-bottom: 20px;
    }
-   .carousel-control {
-     height: 275px;
-   }
    .carousel-indicators {
-     margin-bottom: 10px;
+     margin-bottom: 70px;
    }
    .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
      background-color: rgba(0, 0, 0, .35);
@@ -734,16 +748,13 @@ form label {
    }
    div.carousel-caption.carousel-flex {
      margin: 0 auto;
-     margin-bottom: 145px;
+     margin-bottom: 0px;
    }
    .first-quote {
      margin: 0 auto;
    }
    .flip-card {
      margin: 0 auto;
-   }
-   .work-text {
-     width: 100vw;
    }
    .work-text h1 {
      width: 400px;
@@ -847,11 +858,9 @@ form label {
      margin: 0px 25px;
    }
    .social-links {
-     padding-left: 15px;
      margin-top: 50px;
    }
    .map {
-     margin-left: 0;
      margin-top: 50px;
      width: 364px;
    }
@@ -859,10 +868,10 @@ form label {
      width: 364px;
      margin: 0 auto;
    }
-   #carousel-example-generic {
-     height: 300px;
-   }
    .row-2 {
      margin-bottom: 0;
+   }
+   .code-pic {
+     height: 100vh;
    }
 }
