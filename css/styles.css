@@ -5,6 +5,10 @@
  transition-duration: 0.1s;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 .container-fluid {
  padding-left: 0px;
  padding-right: 0px;
